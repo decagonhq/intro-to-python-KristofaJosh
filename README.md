@@ -17,3 +17,16 @@ _3._**L**SP => the ability to replace any instance of a parent class with an ins
 _4._**I**SP => simply says that only methods needed by a derived class should be available from the parent class. For interfaces, it is better to have many interface with fewer methods than have Fewer Interfaces with many methods in them so that they would be no need for a new entire class creation
 
 _5._**D**IP => high level functions should not implement low implementation but both should depend on abstraction. This is to reduce the impact of changes
+
+## Data types categorization
+|  **Mutable**  | **Imuutable** |
+|---|---|
+|  list | tuple |
+|  dict |  float |
+|  set |  string |
+|  bytearray |  bool |
+|   |  int |
+|   |  unicode |
+|   |  complex |
+|   |  frozen set |
+|   |  bytes |
